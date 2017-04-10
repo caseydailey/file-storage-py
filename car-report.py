@@ -52,6 +52,7 @@ class Car_report:
         car_dictionary = {}
         model_list = []
         for make in car_makes:
+            #each time through the makes, clear the model_list
             model_list = []
             for model in car_models:
                 #if they start with the same letter
